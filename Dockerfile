@@ -11,7 +11,7 @@ ENV APP_DB_USER=joyuser
 ENV APP_DB_PASS=joypassword
 ENV DB_FILE=bahonbdc_ticket.sql
 
-ENV WEB_SERVER=
+ENV WEB_SERVER=joyazure.azurewebsites.net
 
 ENV GIT_REPO=https://github.com/joyktech/glue-in-aks.git
 ENV GIT_BRANCH=main
