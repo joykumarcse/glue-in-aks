@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: joyktechglueinaks 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: joyktechglueinaks
+  template:
+    metadata:
+      labels:
+        app: joyktechglueinaks 
+    spec:
+      containers:
+        - name: joyktechglueinaks 
+          image: mycontainerregistryjoy.azurecr.io/joyktechglueinaks
+          ports:
+          - containerPort: 80/tcp
