@@ -6,15 +6,15 @@ FROM ubuntu:20.04
 ############################
 #####  CONFIG ZONE #########
 
-ENV APP_DB=s
-ENV APP_DB_USER=
-ENV APP_DB_PASS=
-ENV DB_FILE=
+ENV APP_DB=joydb
+ENV APP_DB_USER=joyuser
+ENV APP_DB_PASS=joypassword
+ENV DB_FILE=bahonbdc_ticket.sql
 
 ENV WEB_SERVER=
 
-ENV GIT_REPO=https://team_cloudboost:ATBBz5Xswgg7WZdcHSy8rqcQMfjP6A5CA97F@bitbucket.org/appincubators/glue.git
-ENV GIT_BRANCH=Master
+ENV GIT_REPO=https://github.com/joyktech/glue-in-aks.git
+ENV GIT_BRANCH=main
 ENV GIT_APP_FOLDER=.
 
 ############ END ###########
